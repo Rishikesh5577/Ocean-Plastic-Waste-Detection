@@ -1,12 +1,9 @@
 # Ocean Plastic Waste Detection
 
 Detect and visualize plastic waste in images using a FastAPI backend (Ultralytics YOLO) and a modern React (Vite) frontend.
-
-This project is built for clean showcasing on resumes/portfolios: simple setup, clear UI, and a single, polished release.
-
 ## Highlights
 
-- Plastic-only detection using YOLO with configurable confidence threshold (default: `0.5`).
+- Ocean Plastic detection using YOLO with configurable confidence threshold (default: `0.5`).
 - React (Vite) UI for quick uploads, with plastic count prominently displayed.
 - Annotated image preview (server-side rendering) returned as Base64.
 - Clean API surface: `/health` and `/predict`.
@@ -138,7 +135,12 @@ Add images under `assets/` and reference them here for your portfolio/resume.
 
 Add your license of choice (e.g., MIT) or keep private.
 
+## Dataset
+
+This project uses the [Ocean Plastics Waste Detection Dataset](https://universe.roboflow.com/abdelaadimkhriss/ocean-plastics-waste-detection-float-plastics/dataset/13) from Roboflow. The dataset contains annotated images of plastic waste in ocean and beach environments, which was used to train the YOLO detection model.
+
 ## Acknowledgements
 
-- Ultralytics YOLO for detection models.
-- React + Vite for a fast developer experience.
+- [Ocean Plastics Waste Detection Dataset](https://universe.roboflow.com/abdelaadimkhriss/ocean-plastics-waste-detection-float-plastics/dataset/13) for the training data
+- Ultralytics YOLO for detection models
+- React + Vite for a fast developer experience
